@@ -1,6 +1,6 @@
 # NotesApp – CS50x Final Project
 
-#### Video Demo:  <URL HERE>
+#### Video Demo:  <[URL HERE](https://youtu.be/r2HyKpxxesw)>
 
 
 ## Description
