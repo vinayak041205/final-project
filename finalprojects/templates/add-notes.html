@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Add Note</h2>
+<form method="post">
+    <div class="mb-3">
+        <input class="form-control" name="title" placeholder="Title" required>
+    </div>
+    <div class="mb-3">
+        <textarea class="form-control" name="content" rows="5" placeholder="Note content" required></textarea>
+    </div>
+    <button class="btn btn-success">Save</button>
+</form>
+{% endblock %}

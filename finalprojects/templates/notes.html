@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Your Notes</h2>
+{% if notes %}
+    {% for note in notes %}
+        <div class="card mb-3">
+            <div class="card-header d-flex justify-content-between">
+                <strong>{{ note.title }}</strong>
+                <div>
+                    <a href="/edit/{{ note.id }}" class="btn btn-sm btn-warning">Edit</a>
+                    <a href="/delete/{{ note.id }}" class="btn btn-sm btn-danger">Delete</a>
+                </div>
+            </div>
+            <div class="card-body">
+                <p>{{ note.content }}</p>
+                <small class="text-muted">Created: {{ note.created_at }}</small>
+            </div>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>No notes yet. <a href="/add">Add your first note.</a></p>
+{% endif %}
+{% endblock %}
