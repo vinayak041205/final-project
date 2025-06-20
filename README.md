@@ -4,13 +4,13 @@
 ### 👤 Author: Vinayak Pandey  
 ### 🎓 Course: CS50x 2025  
 ### 🌐 GitHub: [vinayak041205](https://github.com/me50/vinayak041205)  
-### 📍 Location: [Your City, Country]  
+### 📍 Location: [Mumbai, India]  
 ### 📅 Date: June 2025
 
 ---
 
 ### 📽️ Video Demo:
-*Add your YouTube video link here*
+*(https://www.youtube.com/watch?v=r2HyKpxxesw)*
 
 ---
 
